@@ -1,0 +1,46 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+// Icons
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+// Bootstrap configuration
+// @import "../../node_modules/bootstrap/scss/functions";
+// @import "../../node_modules/bootstrap/scss/variables";
+// @import "./variables";
+// @import "./utils/extra-variables"; // Customized Colors
+// @import "../../node_modules/bootstrap/scss/variables-dark";
+// @import "../../node_modules/bootstrap/scss/maps";
+// @import "../../node_modules/bootstrap/scss/mixins";
+// @import "./utilities";
+// @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Swiper
+// @import "../../node_modules/swiper/swiper-bundle.min";
+
+// Utilities
+// @import "./utils/helpers";
+@import "./utils/variable";
+@import "./utils/mixins";
+@import "./utils/grid";
+
+// Base
+// @import "./base/base";
+@import "./base/reset";
+@import "./base/base";
+@import "./base/global";
+
+// Components
+// @import "./components/button";
+
+// Layouts
+@import "./layout/header";
+@import "./layout/footer";
+// @import "./layout/preloader";
+
+// Pages
+@import "./pages/index";
+@import "./pages/stores";
+@import "./pages/store";
+
+

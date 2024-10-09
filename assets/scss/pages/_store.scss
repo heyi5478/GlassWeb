@@ -1,0 +1,32 @@
+.store-detail {
+    display: flex;
+  }
+
+  .store-detail .card-body {
+    border: solid 1px #00000020;
+  }
+
+  .store-detail .card-title {
+    font-size: 24px;
+    border: 1px solid #00000020;
+    padding: 8px 24px;
+  }
+
+  .store-detail .card-des {
+    padding: 20px 24px;
+  }
+
+  .store-detail .card-des li {
+    display: flex;
+    align-items: flex-start;
+    font-size: 20px;
+  }
+
+  .store-detail .card-des .material-symbols-outlined {
+    margin-right: 8px;
+    font-size: 24px;
+  }
+
+  .store-detail .card-des li:not(:last-child) {
+    margin-bottom: 8px;
+  }
