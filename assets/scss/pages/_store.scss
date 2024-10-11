@@ -1,5 +1,6 @@
 .store-detail {
     display: flex;
+    gap: 24px;
   }
 
   .store-detail .card-body {
@@ -29,4 +30,43 @@
 
   .store-detail .card-des li:not(:last-child) {
     margin-bottom: 8px;
+  }
+
+  @media ( max-width: 767px ) {
+    .store-detail {
+      flex-direction: column;
+    }
+
+    .store-detailItem {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+    }
+
+    .store-detailImg {
+      width: calc(50% - 12px);
+    }
+
+    .card-img {
+      height: 100%;
+    }
+
+    .card-body {
+      width: calc(50% - 12px);
+    }
+    
+  }
+
+  @media ( max-width: 576px ) {
+    .store-detailItem {
+      display: block;
+    }
+
+    .store-detailImg {
+      width: 100%;
+    }
+
+    .card-body {
+      width: 100%;
+    }
   }
