@@ -4,6 +4,8 @@
   background-size: cover;
   color: $secondary;
   height: calc(100vh - 80px);
+  object-fit: cover;
+  object-position: center;
 }
 
 .banner-wrapper {
