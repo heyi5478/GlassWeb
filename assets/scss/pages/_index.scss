@@ -124,6 +124,10 @@
   .classic-list .classic-item {
       max-width: 348px;
   }
+
+  .classic-list .classic-img {
+    padding: 0;
+  }
 }
 
 .partner {
@@ -157,6 +161,12 @@
 
   .partner-list .partner-item:not(:last-child) {
       margin-top: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .partner-list {
+    gap: 24px;
   }
 }
 
@@ -206,6 +216,11 @@
 @media (max-width: 576px) {
   .recommend .recommend-list .recommend-item {
       width: 100%;
+  }
+
+  .recommend .recommend-list .recommend-title {
+    font-size: 16px;
+    font-weight: bold;
   }
 }
 
@@ -313,5 +328,11 @@
   .contact-form {
     max-width: 576px;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-des {
+    font-size: 16px;
   }
 }
