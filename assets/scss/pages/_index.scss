@@ -29,6 +29,10 @@
   padding: 6px 12px;
 }
 
+.banner-button a {
+  font-size: 20px;
+}
+
 @media (max-width: 992px) {
   .banner {
       background-image: url('../images/banner-sm.png');
@@ -98,7 +102,7 @@
 }
 
 .classic-list .classic-title {
-  color: $secondary;
+  color: $primary;
   font-size: 48px;
   font-weight: 700;
   font-style: italic;
@@ -135,7 +139,7 @@
   font-size: 48px;
   font-weight: 700;
   font-style: italic;
-  color: $secondary;
+  color: $primary;
 }
 
 @media (max-width: 992px) {
@@ -298,4 +302,5 @@
   border: none;
   padding: 16px 0px;
   margin: 0 auto;
+  font-size: 16px;
 }
